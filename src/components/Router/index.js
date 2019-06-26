@@ -1,7 +1,7 @@
 import { h, Component } from 'preact'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
-import createHistory from 'history/createBrowserHistory'
+import createHistory from 'history/createMemoryHistory'
 
 import { omit } from '~utils/object'
 import { isDesktop } from '~utils'
